@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "893839842474",
+    "project_id": "burgerapp-75758",
+    "storage_bucket": "burgerapp-75758.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893839842474:android:0286679fdcff397019c4d3",
+        "android_client_info": {
+          "package_name": "com.tastetown.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893839842474-b5k6l9udcu1fggh4s60votq4rl7r70oh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tastetown.app",
+            "certificate_hash": "7ae51f3901afd36b202f0d1f4158d99b31165a21"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpECahEiba5youLsrRbRyUC529ERPQkoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

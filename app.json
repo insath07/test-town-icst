@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Welcome to TasteTown",
+    "slug": "tastetown",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon1.png",
+    "scheme": "tastetown",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ff7043"
+      },
+      "package": "com.tastetown.app",
+      "versionCode": 1,
+      "permissions": [],
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon1.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/icon1.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#ff7043"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon1.png",
+          "color": "#ff7043"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "28d080d3-6a4e-40c7-b913-0d77bb53e6c8"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/28d080d3-6a4e-40c7-b913-0d77bb53e6c8"
+    }
+  }
+}
